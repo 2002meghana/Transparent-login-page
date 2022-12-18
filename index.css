@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(bg2.jpeg) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.container{
+    /* border:12px solid black; */
+    color:white;
+    position: absolute;
+    top:20%;
+    left:35%;
+}
+.container h1{
+    /* font-family: 'Fasthand', cursive; */
+    font-family: 'Quicksand', sans-serif;
+    font-size:40px;
+    border-bottom:4px solid rgb(39 141 176);
+    margin-bottom:23px;
+}
+
+.box{
+    /* border:1px solid black; */
+    width:100%;
+     margin: 20px 0px;
+    border-bottom:2px solid rgb(39 141 176);
+}
+.box input{
+    background:none;
+    border:none;
+    width:75%;
+    outline:none;
+    color:white;
+    /* margin: 9px 0px; */
+    padding:6px 8px;
+    font-size: 18px;
+
+}
+
+.btn{
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+     cursor:pointer;
+     outline:none;
+     width:25%;
+     margin:auto;
+     padding:8px 11px;
+     border-radius:10px;
+     border:2px solid rgb(39 141 176);
+     /* border:none; */
+     background:none;
+     font-size:14px;
+     font-weight: bold;
+     display:grid;
+     justify-content: center;
+     text-align: center;
+
+}  
+.btn:hover{
+    color:rgb(39 141 176);
+    background:white; 
+    
+
+}  
+
+.box i{
+    width:25px;
+    padding:0px 12px;
+
+    text-align: center;
+
+}
+@media only screen and (min-width: 300px) and (max-width: 680px) {
+    .container {
+        margin: 40px 15px;
+        position: unset;
+    }
+    .container h1 {
+        font-size: 30px;
+        text-align: center;
+        width: unset;
+    }
+    .box input {
+        margin: 10px auto;
+    }
+}
+
